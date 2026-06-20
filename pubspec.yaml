@@ -1,0 +1,67 @@
+name: fasn
+description: A beautiful personal routine & wellness app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Alarm & notifications
+  flutter_local_notifications: ^17.2.2
+  flutter_tts: ^4.0.2
+  vibration: ^1.9.0
+  timezone: ^0.9.4
+
+  # Audio / Music player
+  just_audio: ^0.9.40
+  audio_service: ^0.18.15
+  on_audio_query: ^2.9.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Networking (AI API calls)
+  http: ^1.2.2
+
+  # UI & animations
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+
+  # Misc
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.4
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
