@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "46627418820",
+    "firebase_url": "https://laboffire-default-rtdb.firebaseio.com",
+    "project_id": "laboffire",
+    "storage_bucket": "laboffire.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46627418820:android:c091bfd3879e681421cf91",
+        "android_client_info": {
+          "package_name": "com.example.project_beacon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd3l8pVx_679WoJ8Fpgx9PRjiobDl_P_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
